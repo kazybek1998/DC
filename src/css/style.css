@@ -1,0 +1,177 @@
+
+
+body {
+    margin: 0;
+    font-family: Nunito Sans, Arial;
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1250px;
+    margin: 0 auto; 
+}
+
+button {
+    background: #E3B873;
+    box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.2);
+    border-radius: 2px;
+    outline: 0;
+    border: 0;
+    padding: 13px 33px;
+    color: white;
+    text-transform: uppercase;
+}
+h3 {
+    text-align: center;
+    text-transform: uppercase;
+}
+h4 {
+    text-align: center;
+}
+
+/* .button-header {
+
+} */
+
+/* img {
+
+} */
+
+.img-clients {
+    text-align: center;
+}
+
+.button-container {
+    position: relative;
+    z-index: 1;
+}
+
+.logo {
+    color: #E3B873;
+}
+#our-clientts-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin:25px;
+}
+
+.header {
+    background-color: black;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    color:burlywood;
+    height: 83px;
+    align-items: center;
+}
+
+.header-navigation {
+    list-style: none;
+    display: flex;
+}
+.header-navigation__item {
+    margin-right: 47px;
+}
+.header-navigation__item a {
+    text-decoration: none;
+    color:white;
+}
+
+.hero {
+    display: flex;
+    background-image:url(/figma/src/img/background.jpg);
+    background-size: cover;
+    height: 707px;
+    padding: 194px 627px 208px 134px;
+    position: relative;
+    flex-flow: column;
+    justify-content: space-between;
+}
+
+.hero-overlay {
+    content: '';
+    position:absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .7)
+}
+
+.hero-container {
+    position: relative;
+    z-index: 1;
+}
+
+.title {
+    position:relative;
+    margin: 0px 0px 0px -268px;
+    font-family: Yeseva One, 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 53px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+}
+
+.main-text {
+    position:relative;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 36px;
+
+    color: #FFFFFF;
+}
+
+.completed_projects {
+    display: flex;
+    height: 1074;
+    color: #e5b972;
+    background-color:black;
+    position: relative;
+    flex-flow:row;
+    justify-content:end;
+    background-size:cover;
+}
+
+footer {
+    background-color:black;
+}
+
+.types-of-repair {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.service-lists {
+    align-items:baseline;
+    margin-top: -25px;
+}
+.ul-service-lists {
+    margin-left: auto 0;
+}
+.online-control {
+    text-align: center;
+}
+.clients {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+} 
+
+.section-last {
+    text-align: center;
+}
